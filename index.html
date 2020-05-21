@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="nav-container-column">
+                <span>Already have an Account?</span>
+                <a href="#">I forgot my user ID or Password</a>
+            </div>
+            <button class="nav-container__button"><img src="assets/lock.svg" alt="Lock Icon"> Sign In</button>
+        </div>
+    </header>
+    <main>
+        <div class="main-header">
+            <div class="logo"><img src="assets/intuit-logo.png" alt="Intuit Logo"></div>
+            <ul class="main-header-logos">
+                <li class="mini-logo">
+                    <img src="assets/mint-logo.png" alt="Mint Logo">
+                    <h5 class="mini-logo__title">Mint</h5>
+                </li>
+                <li class="mini-logo">
+                    <img src="assets/quickbooks-logo.png" alt="quickbooks-logo">
+                    <h5 class="mini-logo__title">Quickbooks</h5>
+                </li>
+                <li class="mini-logo">
+                    <img src="assets/turbotax-logo.png" alt="turbotax logo">
+                    <h5 class="mini-logo__title">Turbotax</h5>
+                </li>
+            </ul>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <h2>Create an Intuit account</h2>
+                <p>One account for everything Intuit, including Mint.</p>
+                <a href="#">Learn more</a>
+            </div>
+        <form action="" class="create-acct">
+            <fieldset>
+                
+                <label for="email">Email address</label>
+                <input type="email" name="email" id="email">
+                
+                <label for="phone">Phone(recommended)</label>
+                <input type="tel" name="phone" id="phone">
+                <span>Standard call, messaging or data rates may apply.</span>
+                
+                <label for="password">Password</label>
+                <div class="password-input">
+                    <input type="password" name="password" id="password">
+                    <img src="assets/unlock.svg" alt="unlock icon">
+                </div>
+            </fieldset>
+            <fieldset class="submit-form">
+                <button class="submit-form__button" type="submit">
+                    <img src="assets/lock.svg" alt="lock icon">
+                    Create Account
+                </button>
+                <p>By clicking Create account, you agree to our
+                <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement.</a></p>
+            </fieldset>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
